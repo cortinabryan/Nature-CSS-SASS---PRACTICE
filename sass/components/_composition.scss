@@ -35,5 +35,7 @@
   &:hover &__photo:not(:hover) {
     transform: scale(0.95);
   }
+
+  // Save
   // composition:hover composition__photo:not(:hover)
 }
