@@ -189,11 +189,11 @@ body {
       top: 10rem; }
     .composition__photo:hover {
       outline: 1.5rem solid #55c57a;
-      transform: scale(1.05) translateY(-0.5rem);
+      transform: scale(1.05) translateY(-5rem);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
       z-index: 2; }
   .composition:hover .composition__photo:not(:hover) {
-    transform: scagit sle(0.95); }
+    transform: scale(0.95); }
 
 .feature-box {
   background-color: rgba(255, 255, 255, 0.8);
@@ -267,4 +267,8 @@ body {
 .section-features {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
-  background-size: cover; }
+  background-size: cover;
+  transform: skewY(-7deg);
+  margin-top: -11rem; }
+  .section-features > * {
+    transform: skewY(7deg); }
