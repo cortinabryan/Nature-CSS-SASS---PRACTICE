@@ -13,7 +13,7 @@ html {
   @include respond(tab-land) {
     //width < 1200?
     //width < 900?
-    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%live
   }
   @include respond(tab-port) {
     //width < 900?
@@ -27,4 +27,9 @@ html {
 
 body {
   box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
