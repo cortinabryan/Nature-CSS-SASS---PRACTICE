@@ -549,6 +549,10 @@ body {
   .popup__left {
     width: 33.33333%;
     display: table-cell; }
+    @media (max-width: 56.25em) {
+      .popup__left {
+        display: table-row;
+        width: 50%; } }
   .popup__right {
     width: 66.66666%;
     display: table-cell;
@@ -557,6 +561,10 @@ body {
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 56.25em) {
+      .popup__img {
+        width: 50%;
+        display: flex; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
