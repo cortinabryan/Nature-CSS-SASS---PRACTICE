@@ -552,7 +552,8 @@ body {
     @media (max-width: 56.25em) {
       .popup__left {
         display: table-row;
-        width: 50%; } }
+        margin: 500rem;
+        position: relative; } }
   .popup__right {
     width: 66.66666%;
     display: table-cell;
@@ -563,8 +564,9 @@ body {
     width: 100%; }
     @media (max-width: 56.25em) {
       .popup__img {
-        width: 50%;
-        display: flex; } }
+        margin-bottom: 500px;
+        width: 10%;
+        right: 0px; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;

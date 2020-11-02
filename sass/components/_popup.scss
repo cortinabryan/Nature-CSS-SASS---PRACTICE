@@ -29,7 +29,9 @@
 
     @include respond(tab-port) {
       display: table-row;
-      width: 50%;
+      // width: 100%;
+      margin: 500rem;
+      position: relative;
     }
   }
 
@@ -44,9 +46,28 @@
     display: block;
     width: 100%;
 
+    &-1 {
+      @include respond(tab-port) {
+        // margin-left: 200rem;
+      }
+      // right: 90099rem;
+    }
+
+    &-2 {
+      @include respond(tab-port) {
+        // margin-right: 200rem;
+      }
+      // left: 20rem;
+    }
+
     @include respond(tab-port) {
-      width: 50%;
-      display: flex;
+      // display: table-row;
+      margin-bottom: 500px;
+      width: 10%;
+      // position: relative;
+      // top: 500px;
+      // left: 500px;
+      right: 0px;
     }
   }
 
