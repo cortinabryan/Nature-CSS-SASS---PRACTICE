@@ -564,9 +564,10 @@ body {
     width: 100%; }
     @media (max-width: 56.25em) {
       .popup__img {
-        margin-bottom: 500px;
-        width: 10%;
-        right: 0px; } }
+        display: block;
+        width: 50%;
+        right: 0px;
+        float: left; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
